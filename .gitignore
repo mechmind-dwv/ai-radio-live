@@ -1,0 +1,14 @@
+# Python / Entorno virtual
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Variables de entorno con credenciales
+.env
+
+# Archivos de caché del sistema operativo
+.DS_Store
+Thumbs.db
