@@ -1,14 +1,19 @@
-# Python / Entorno virtual
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-.venv/
 venv/
-ENV/
+.venv/
 
-# Variables de entorno con credenciales
+# Datos y media (no subir a Git)
+data/
+music/*.mp3
+music/*.wav
+music/*.ogg
+
+# Entorno
 .env
+.env.local
 
-# Archivos de caché del sistema operativo
+# Sistema
 .DS_Store
-Thumbs.db
+*.log
